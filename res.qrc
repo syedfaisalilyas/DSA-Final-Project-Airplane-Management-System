@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="images">
+    <file>1234.jpg</file>
+    <file>early-morning-flights.jpg</file>
+    <file>D:/early-morning-flights.jpg</file>
+    <file>123.jpg</file>
+  </qresource>
+  <qresource prefix="imag">
+    <file>images/1234.jpg</file>
+  </qresource>
+</RCC>

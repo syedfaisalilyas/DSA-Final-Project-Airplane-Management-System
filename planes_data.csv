@@ -1,0 +1,7 @@
+fNumber,fType,pName,capacity,src,dest,date,duration
+ABC123,Commercial,John Doe,250,USA,France,31/12/2023,18:00
+XYZ789,Domestic,Jane Smith,150,Canada,Germany,15/01/2024,10:30
+DEF456,Commercial,Michael Johnson,200,UK,Italy,20/12/2023,14:45
+GHI789,Domestic,Emily Williams,180,Spain,Japan,05/02/2024,21:15
+JKL321,Commercial,David Brown,300,Germany,USA,05/01/2024,9:00
+MNO654,Domestic,Sarah Wilson,170,France,Canada,25/12/2023,16:30

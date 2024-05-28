@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1042</width>
+    <height>875</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(104, 38, 38);</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>140</y>
+     <width>651</width>
+     <height>392</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(104, 38, 38);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>FlightNumber</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>FlightType</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Pilot</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Capacity</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Source</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Destination</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Time</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="timeLable">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>750</y>
+     <width>220</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="sortingMenu">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>590</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>InsertionSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>IndexSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PancakeSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SelectionSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>BubbleSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MergeSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>QuickSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HeapSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CountingSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RadixSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>BucketSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CombSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ShellSort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CockailSort</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="sortButton">
+   <property name="geometry">
+    <rect>
+     <x>599</x>
+     <y>700</y>
+     <width>201</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sort</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>550</y>
+     <width>351</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Select Column:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="columnBox">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>550</y>
+     <width>220</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PhoneNumber</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Time</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SourceCountry</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Destination</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Price</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="sortingType">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>640</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Mongolian Baiti&quot;;
+border-radius: 5px;
+
+
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Ascending</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Descending</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>590</y>
+     <width>351</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Select Sorting Algorithm:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>630</y>
+     <width>351</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Select Sorting Order:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>750</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Time Taken:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
